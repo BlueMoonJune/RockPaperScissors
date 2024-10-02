@@ -11,3 +11,17 @@ options = {
 
 # Generate computer's choice
 computer = randint(0,2)
+
+#Take user input
+user = -1
+while True:
+    userOption = input("Rock, Paper, or Scissors?").lower()
+    #turn input into integer id
+    if userOption in options:
+        user = options[userOption]
+        break
+    else:
+        print("invalid input")
+
+print(user)
+#See who wins
