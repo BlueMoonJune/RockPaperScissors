@@ -38,3 +38,15 @@ if user == 2 and computer == 1:
     print("Scissors beats paper, you win!")
 elif user == 1 and computer == 2:
     print("Scissors beats paper, you lose!")
+
+#Check for rock
+if user == 0 and computer == 2:
+    print("Rock beats scissors, you win!")
+elif user == 2 and computer == 0:
+    print("Rock beats scissors, you lose!")
+
+#Check for paper
+if user == 1 and computer == 0:
+    print("Paper beats Rock, you win!")
+elif user == 0 and computer == 1:
+    print("Paper beats Rock, you lose!")
