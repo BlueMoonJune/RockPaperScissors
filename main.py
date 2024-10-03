@@ -1,7 +1,7 @@
-scores = [0, 0, 0]
 # --- IMPORTS ---
 from random import randint
 # ---------------
+scores = [0, 0, 0]
 
 # `options[input]` to go from name to integer id
 options = {
