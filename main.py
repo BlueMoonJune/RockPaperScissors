@@ -1,3 +1,9 @@
+scores = {
+        "user": 0,
+        "comp": 0,
+        "ties": 0
+    }
+
 # --- IMPORTS ---
 from random import randint
 # ---------------
