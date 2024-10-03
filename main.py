@@ -30,6 +30,8 @@ print(user)
 
 dif = (computer - user) % 3 #0: Draw, 1: computer, 2: user
 
+scores[dif] += 1
+
 #Evaluate a draw
 if dif == 0:
     print("Its a draw!")
