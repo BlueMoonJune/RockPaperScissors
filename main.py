@@ -1,9 +1,4 @@
-scores = {
-        "user": 0,
-        "comp": 0,
-        "ties": 0
-    }
-
+scores = [0, 0, 0]
 # --- IMPORTS ---
 from random import randint
 # ---------------
@@ -56,3 +51,5 @@ if user == 1 and computer == 0:
     print("Paper beats Rock, you win!")
 elif user == 0 and computer == 1:
     print("Paper beats Rock, you lose!")
+
+
