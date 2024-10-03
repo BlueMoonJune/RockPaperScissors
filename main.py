@@ -24,4 +24,11 @@ while True:
         print("invalid input")
 
 print(user)
+
 #See who wins
+
+dif = (computer - user) % 3 #0: Draw, 1: computer, 2: user
+
+#Evaluate a draw
+if dif == 0:
+    print("Its a draw!")
