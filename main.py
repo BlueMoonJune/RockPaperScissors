@@ -32,3 +32,9 @@ dif = (computer - user) % 3 #0: Draw, 1: computer, 2: user
 #Evaluate a draw
 if dif == 0:
     print("Its a draw!")
+
+#Check for scissors
+if user == 2 and computer == 1:
+    print("Scissors beats paper, you win!")
+elif user == 1 and computer == 2:
+    print("Scissors beats paper, you lose!")
